@@ -48,11 +48,11 @@
             <!-- Card 1 -->
             <div class="col-md-4 col-sm-6">
                 <div class="card">
-                    <span class="rate position-absolute rounded-pill">4.8 <i class="fa fa-star"></i></span>
+                    <span class="rate position-absolute rounded-pill">4.9 <i class="fa fa-star"></i></span>
                     <img src="download.jpeg" class="card-img-top" alt="Mochi Cokelat">
-                    <div class="card-body d-flex justify-content-between align-items-center">
-                        <h5>Mochi Cokelat</h5>
-                        <h5 class="price">21 k</h5>
+                    <div class="card-body d-flex align-items-center">
+                        <h5 class="flex-grow-1">Mochi Cokelat</h5>
+                        <h5 class="price px-3">21 k</h5>
                         <div class="add-cart">
                             <i class="fa fa-shopping-cart"></i>
                         </div>
@@ -62,11 +62,11 @@
             <!-- Card 2 -->
             <div class="col-md-4 col-sm-6">
                 <div class="card">
-                    <span class="rate position-absolute rounded-pill">4.8 <i class="fa fa-star"></i></span>
+                    <span class="rate position-absolute rounded-pill">4.9 <i class="fa fa-star"></i></span>
                     <img src="ocean.jpeg" class="card-img-top" alt="Ocean Blue Jelly">
-                    <div class="card-body d-flex justify-content-between align-items-center">
-                        <h5>Ocean Blue Jelly</h5>
-                        <h5 class="price">12 k</h5>
+                    <div class="card-body d-flex align-items-center">
+                        <h5 class="flex-grow-1">Ocean Blue Jelly</h5>
+                        <h5 class="price px-3">12 k</h5>
                         <div class="add-cart">
                             <i class="fa fa-shopping-cart"></i>
                         </div>
@@ -76,11 +76,11 @@
             <!-- Card 3 -->
             <div class="col-md-4 col-sm-6">
                 <div class="card">
-                    <span class="rate position-absolute rounded-pill">4.8 <i class="fa fa-star"></i></span>
-                    <img src="matha.jpeg" class="card-img-top" alt="Hazelnut Latte">
+                    <span class="rate position-absolute rounded-pill">4.9 <i class="fa fa-star"></i></span>
+                    <img src="matha.jpeg" class="card-img-top" alt="mochi Matcha">
                     <div class="card-body d-flex justify-content-between align-items-center">
-                        <h5>Mochi Matcha</h5>
-                        <h5 class="price">23 k</h5>
+                        <h5 class="flex-grow-1">Mochi Matcha</h5>
+                        <h5 class="price px-3">23 k</h5>
                         <div class="add-cart">
                             <i class="fa fa-shopping-cart"></i>
                         </div>
@@ -103,7 +103,7 @@
         <h2 class="py-5 text-center fw-bold">How to use our <span style="color: #ff902a;">delivery service</span></h2>
         <div class="row text-center mt-4">
             <div class="col-md-4">
-                <img src="favorite.png" width="100px" height="100px" alt="Choose Coffee">
+                <img src="foodfav.png" width="100px" height="100px" alt="Choose Coffee">
                 <p class="fs-4 fw-bold">Choose Your Favorites</p>
                 <p>From Mochi to refreshing Jelly, pick your best-loved treats.</p>
             </div>
@@ -119,6 +119,31 @@
             </div>
         </div>
     </div>
+
+     <!-- footer -->
+     <footer class="bg-light py-5 mt-5" id="about">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-4">contact us</h2>
+            <div class="row text-center py-3">
+                <div class="col-md-3">
+                    <p class="lead">Anisa</p>
+                    <p class="lead">0896-8676-9080</p>
+                </div>
+                <div class="col-md-3">
+                    <p class="lead">Aulia</p>
+                    <p class="lead">0813-1150-9460</p>
+                </div>
+                <div class="col-md-3">
+                    <p class="lead">Mathilda</p>
+                    <p class="lead">0877-9631-3410</p>
+                </div>
+                <div class="col-md-3">
+                    <p class="lead">Zahra</p>
+                    <p class="lead">0896-5253-7359</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>
